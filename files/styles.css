@@ -25,7 +25,7 @@ h1 {
     background-color: #FFAEBC;
     /* Fondo de los botones */
     border: none;
-    color: #333333;
+    color: #ffffff;
     /* Texto de los botones */
     padding: 15px 32px;
     text-align: center;
@@ -40,7 +40,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #efbadb;
+    background-color: rgb(243, 113, 193);
     /* Color al pasar el ratón */
     transform: scale(1.05);
 }
