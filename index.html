@@ -7,40 +7,51 @@
     
     <style>
         body {
-            background-color: #f9f9f9;
+            background-color: #fbe7c6; /* Color de fondo suave */
             margin: 20px;
             font-family: Arial, sans-serif;
         }
         h1 {
-            color: blueviolet;
+            color: #ff6f61; /* Color de texto del título */
+            background-color: #a0e7e5; /* Fondo del título */
+            padding: 20px;
+            border-radius: 12px;
+            text-align: center;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            margin: 0 auto;
+            width: fit-content;
+        }
+        h3 {
+            color: #333333; /* Color del subtítulo */
+            text-align: center;
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
         .button {
-            background-color: #4CAF50;
+            background-color: #b4f8c8; /* Fondo de los botones */
             border: none;
-            color: white;
+            color: #333333; /* Texto de los botones */
             padding: 15px 32px;
             text-align: center;
             text-decoration: none;
             display: inline-block;
             font-size: 16px;
             border-radius: 12px;
-            transition: background-color 0.3s ease;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s;
         }
         .button:hover {
-            background-color: #45a049;
+            background-color: #ffaebc; /* Color al pasar el ratón */
+            transform: scale(1.05);
         }
     </style>
 </head>
 <body>
-    <h1 style="color:blueviolet">Ejericio 2 </h1>
-
-    <h3 style="color:blue">&lt;Lista de Páginas&gt;</h3>
-
+    <h1>Ejericio 2</h1>
+    <h3>&lt;Lista de Páginas&gt;</h3>
     <ul>
-        <li><a class="button" href="/files/pag2.html"> Ir a la página 2: Tipos de conejos </a> </li>
-        <li><a class="button"href="files/pag3.html">Ir a la página 3: Asignaturas DAM</a></li>
-
+        <li><a class="button" href="/files/pag2.html">Ir a la página 2: Tipos de conejos</a></li>
+        <li><a class="button" href="files/pag3.html">Ir a la página 3: Asignaturas DAM</a></li>
     </ul>
-
 </body>
 </html>
