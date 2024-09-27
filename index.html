@@ -15,11 +15,11 @@
             color: #ff6f61; /* Color de texto del título */
             background-color: #a0e7e5; /* Fondo del título */
             padding: 20px;
-            border-radius: 12px;
+            border-radius: 0; /* Sin bordes redondeados para que ocupe el ancho completo */
             text-align: center;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            margin: 0 auto;
-            width: fit-content;
+            margin: 0; /* Sin margen para que no se desplace */
+            width: 100%; /* Ocupa el ancho completo */
         }
         h3 {
             color: #333333; /* Color del subtítulo */
@@ -54,3 +54,7 @@
     </ul>
 </body>
 </html>
+
+<!-- width: 100%;: Hace que el título ocupe todo el ancho de la pantalla.
+border-radius: 0;: Elimina el redondeo en las esquinas del título.
+margin: 0;: Elimina el margen superior e inferior para que el título se alinee perfectamente en la parte superior de la página.-->
