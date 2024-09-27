@@ -39,22 +39,46 @@
             border-radius: 12px;
             box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
             transition: background-color 0.3s ease, transform 0.2s;
+            margin: 10px 0; /* Margen vertical entre botones */
         }
         .button:hover {
             background-color: #ffaebc; /* Color al pasar el ratón */
             transform: scale(1.05);
         }
+        .description {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 16px;
+            color: #333333;
+        }
+        .links {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 14px;
+            color: #555555;
+        }
     </style>
 </head>
 <body>
     <h1>Mi blog personal</h1>
-    <ul>
+    
+    <div class="description">
+        <p>Este es el ejercicio 2, que consiste en crear tu propia página HTML sencilla.</p>
+        <p>He decidido decorarlo y usar CSS para mejorar la estética y aprender más sobre diseño web.</p>
+    </div>
+    
+    <ul style="list-style-type: none; padding: 0;"> <!-- Elimina los puntos de la lista -->
         <li><a class="button" href="/files/pag2.html">Ir a la página 2: Tipos de conejos</a></li>
         <li><a class="button" href="files/pag3.html">Ir a la página 3: Asignaturas DAM</a></li>
     </ul>
+
+    <div class="links">
+        <p>Enlaces de investigación:</p>
+        <ul>
+            <li><a href="#" target="_blank">Enlace 1</a></li>
+            <li><a href="#" target="_blank">Enlace 2</a></li>
+            <li><a href="#" target="_blank">Enlace 3</a></li>
+        </ul>
+    </div>
 </body>
 </html>
-
-<!-- width: 100%;: Hace que el título ocupe todo el ancho de la pantalla.
-border-radius: 0;: Elimina el redondeo en las esquinas del título.
-margin: 0;: Elimina el margen superior e inferior para que el título se alinee perfectamente en la parte superior de la página.-->
