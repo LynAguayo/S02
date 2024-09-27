@@ -40,7 +40,7 @@ h1 {
 }
 
 .button:hover {
-    background-color: #cd3a95;
+    background-color: #efbadb;
     /* Color al pasar el ratón */
     transform: scale(1.05);
 }
@@ -82,7 +82,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50; /* Encabezado verde */
+    background-color: #FFAEBC; /* Encabezado verde */
     color: white;
 }
 
