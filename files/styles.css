@@ -87,7 +87,7 @@ th {
 }
 
 tr:nth-child(even) {
-    background-color: #f6cad2; /* Filas alternas */
+    background-color: #f1d9dd; /* Filas alternas */
 }
 
 tr:hover {
