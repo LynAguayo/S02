@@ -82,14 +82,14 @@ th, td {
 }
 
 th {
-    background-color: #FFAEBC; /* Encabezado verde */
+    background-color: #FFAEBC; /* Encabezado */
     color: white;
 }
 
 tr:nth-child(even) {
-    background-color: #f2f2f2; /* Filas alternas */
+    background-color: #f6cad2; /* Filas alternas */
 }
 
 tr:hover {
-    background-color: #ddd; /* Color al pasar el ratón */
+    background-color: #faa3b3; /* Color al pasar el ratón */
 }
